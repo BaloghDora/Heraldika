@@ -1,5 +1,7 @@
 body{
   padding: 5px 25px;
+  background-image: url(hatter.png);
+  color: #7F7F7F;
 }
 
 p{
@@ -16,6 +18,7 @@ ol li{
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
   line-height: 120%;
+  height: 200%;
 }
 
 h1, h2{
@@ -34,7 +37,7 @@ a{
 }
 
 img{
-  border: 1px solid #0F0F0F;
+  border: 15px solid #0F0F0F;
   box-shadow: 5px 5px 5px #7F7F7F;
   padding:15px;
 }
@@ -47,8 +50,10 @@ img{
 
 .fk{
   font-weight: normal;
+  font-weight: bold;
 }
 
 #teljes{
   float:right;
+  width: 280px;
 }
